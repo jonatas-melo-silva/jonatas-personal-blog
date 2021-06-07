@@ -37,7 +37,7 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <Link href="index-pt">
+            <Link href="/index-pt">
                 <a title="Go to portuguese site">
                   <Image
                     priority
@@ -69,7 +69,7 @@ export default function Layout({ children, home }) {
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
-            <Link href="/">
+            <Link href="/index-pt">
                 <a title="Go to portuguese site">
                   <Image
                     priority
