@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
       <p>Óla, eu sou Jonatas. Eu estou me graduando em
-       👨🏻‍🎓 Analise e Desenvolvimento de Sistemas 
+       👨🏻‍🎓 Análise e Desenvolvimento de Sistemas 
        | Instituto Federal de Educação, Ciência e Tecnologia
         do Rio Grande do Norte - Campus Natal Central.</p>
           
