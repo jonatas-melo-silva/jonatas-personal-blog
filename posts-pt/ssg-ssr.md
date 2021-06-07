@@ -3,7 +3,7 @@ title: "Quando Usar a Renderização do Lado do Servidor v.s. Geração Estátic
 date: "2020-01-02"
 ---
 
-Recomendamos usar **Geração Estática** (com e sem dados) sempre que possível, porque sua página pode ser construída uma vez e servida pelo CDN, o que torna muito mais rápido do que ter um servidor renderizar a página em cada solicitação.
+Recomendamos usar **Geração Estática** (com e sem dados) sempre que possível, porque sua página pode ser construída uma vez e servida pelo CDN, o que torna muito mais rápido do que ter um servidor para renderizar a página em cada solicitação.
 
 Você pode usar a Geração Estática para muitos tipos de páginas, incluindo:
 
