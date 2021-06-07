@@ -52,7 +52,7 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
+            <Link href="/index-pt">
               <a>
                 <Image
                   priority
@@ -65,7 +65,7 @@ export default function Layout({ children, home }) {
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
-              <Link href="/">
+              <Link href="/index-pt">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
