@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Jonatas M.Silva'
-export const siteTitle = 'Personal Website'
+export const siteTitle = 'Website Pessoal'
 
 export default function Layout({ children, home }) {
   return (
@@ -37,15 +37,15 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <Link href="index-pt">
-                <a title="Go to portuguese site">
+            <Link href="/">
+                <a title="Ir para o site em Inglês">
                   <Image
                     priority
-                    src="/images/bandeira-do-brasil.png"
+                    src="/images/reino-unido.png"
                     className={utilStyles.borderCircle}
                     height={40}
                     width={40}
-                    alt={'Brazil flag'}
+                    alt={'Inglês flag'}
                   />
                 </a>
               </Link>
@@ -70,14 +70,14 @@ export default function Layout({ children, home }) {
               </Link>
             </h2>
             <Link href="/">
-                <a title="Go to portuguese site">
+                <a title="Ir para o site em Inglês">
                   <Image
                     priority
-                    src="/images/bandeira-do-brasil.png"
+                    src="/images/reino-unido.png"
                     className={utilStyles.borderCircle}
                     height={30}
                     width={30}
-                    alt={'Brazil flag'}
+                    alt={'Inglês flag'}
                   />
                 </a>
               </Link>
@@ -87,8 +87,8 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
+          <Link href="/index-pt">
+            <a>← Voltar para a home</a>
           </Link>
         </div>
       )}
